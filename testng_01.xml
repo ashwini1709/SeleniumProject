@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	    <parameter name="BrowsrName" value="firefox"></parameter>
+    <classes>
+      <class name="com.Demo.Custmer_login"/>
+      <class name="com.Demo.Manager_Login"/>
+      <class name="com.Demo.Bace_Test_01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

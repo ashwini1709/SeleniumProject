@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[loginPageexecution is pass]]>
+    </line>
+    <line>
+      <![CDATA[loginPageexecution is pass]]>
+    </line>
+    <line>
+      <![CDATA[addCurrencyexecution is pass]]>
+    </line>
+    <line>
+      <![CDATA[loginPage_02execution is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-27T22:50:57 IST" name="Suite" finished-at="2023-11-27T22:51:37 IST" duration-ms="40308">
+    <groups>
+    </groups>
+    <test started-at="2023-11-27T22:50:57 IST" name="Test" finished-at="2023-11-27T22:51:37 IST" duration-ms="40308">
+      <class name="com.Demo.Manager_Login">
+        <test-method is-config="true" signature="opanBrowser(java.lang.String)[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:04 IST" name="opanBrowser" finished-at="2023-11-27T22:51:05 IST" duration-ms="1898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opanBrowser -->
+        <test-method is-config="true" signature="opanApps()[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:05 IST" name="opanApps" finished-at="2023-11-27T22:51:10 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opanApps -->
+        <test-method signature="loginPage()[pri:1, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:10 IST" name="loginPage" finished-at="2023-11-27T22:51:13 IST" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="testItestRsult(org.testng.ITestResult)[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:13 IST" name="testItestRsult" finished-at="2023-11-27T22:51:13 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=Manager_Login.loginPage()[pri:1, instance:com.Demo.Manager_Login@2794eab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginPageexecution is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItestRsult -->
+        <test-method is-config="true" signature="opanApps()[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:13 IST" name="opanApps" finished-at="2023-11-27T22:51:13 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opanApps -->
+        <test-method signature="addCurrency()[pri:2, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:13 IST" name="addCurrency" finished-at="2023-11-27T22:51:14 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCurrency -->
+        <test-method is-config="true" signature="testItestRsult(org.testng.ITestResult)[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:14 IST" name="testItestRsult" finished-at="2023-11-27T22:51:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCurrency status=SUCCESS method=Manager_Login.addCurrency()[pri:2, instance:com.Demo.Manager_Login@2794eab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[addCurrencyexecution is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItestRsult -->
+        <test-method is-config="true" signature="opanApps()[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:14 IST" name="opanApps" finished-at="2023-11-27T22:51:14 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opanApps -->
+        <test-method signature="loginPage_02()[pri:3, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:14 IST" name="loginPage_02" finished-at="2023-11-27T22:51:36 IST" duration-ms="22317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage_02 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:36 IST" name="closeBrowser" finished-at="2023-11-27T22:51:37 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="testItestRsult(org.testng.ITestResult)[pri:0, instance:com.Demo.Manager_Login@2794eab6]" started-at="2023-11-27T22:51:36 IST" name="testItestRsult" finished-at="2023-11-27T22:51:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage_02 status=SUCCESS method=Manager_Login.loginPage_02()[pri:3, instance:com.Demo.Manager_Login@2794eab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginPage_02execution is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItestRsult -->
+      </class> <!-- com.Demo.Manager_Login -->
+      <class name="com.Demo.Custmer_login">
+        <test-method is-config="true" signature="opanBrowser(java.lang.String)[pri:0, instance:com.Demo.Custmer_login@229c6181]" started-at="2023-11-27T22:50:57 IST" name="opanBrowser" finished-at="2023-11-27T22:50:59 IST" duration-ms="2449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opanBrowser -->
+        <test-method is-config="true" signature="opanApps()[pri:0, instance:com.Demo.Custmer_login@229c6181]" started-at="2023-11-27T22:50:59 IST" name="opanApps" finished-at="2023-11-27T22:51:01 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opanApps -->
+        <test-method signature="loginPage()[pri:0, instance:com.Demo.Custmer_login@229c6181]" started-at="2023-11-27T22:51:01 IST" name="loginPage" finished-at="2023-11-27T22:51:03 IST" duration-ms="1860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="testItestRsult(org.testng.ITestResult)[pri:0, instance:com.Demo.Custmer_login@229c6181]" started-at="2023-11-27T22:51:03 IST" name="testItestRsult" finished-at="2023-11-27T22:51:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=Custmer_login.loginPage()[pri:0, instance:com.Demo.Custmer_login@229c6181] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginPageexecution is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItestRsult -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Demo.Custmer_login@229c6181]" started-at="2023-11-27T22:51:03 IST" name="closeBrowser" finished-at="2023-11-27T22:51:04 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Demo.Custmer_login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
